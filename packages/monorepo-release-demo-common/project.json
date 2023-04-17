@@ -1,0 +1,85 @@
+{
+  "name": "monorepo-release-demo-common",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/monorepo-release-demo-common/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "packages/monorepo-release-demo-common/src/**/*.{ts,tsx,js,jsx}",
+          "packages/monorepo-release-demo-common/tests/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "typecheck": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": [
+          "tsc --noEmit -p packages/monorepo-release-demo-common/tsconfig.lib.json"
+        ]
+      }
+    },
+    "typedoc": {
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "packages/monorepo-release-demo-common/src",
+        "commands": [
+          "typedoc --out ../../../docs/monorepo-release-demo-common index.ts"
+        ]
+      }
+    },
+    "build": {
+      "executor": "@nrwl/vite:build",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "outputPath": "dist/packages/monorepo-release-demo-common"
+      },
+      "configurations": {
+        "development": {
+          "mode": "development"
+        },
+        "production": {
+          "mode": "production"
+        }
+      },
+      "dependsOn": ["typecheck"]
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "packages/monorepo-release-demo-common/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "semantic-release": {
+      "executor": "@theunderscorer/nx-semantic-release:semantic-release",
+      "options": {
+        "buildTarget": "monorepo-release-demo-common:build",
+        "outputPath": "dist/packages/monorepo-release-demo-common",
+        "plugins": [
+          [
+            "@semantic-release/pnpm",
+            {
+              "pkgRoot": "dist/packages/monorepo-release-demo-common",
+              "npmPublish": false
+            }
+          ],
+          [
+            "@semantic-release/pnpm",
+            {
+              "pkgRoot": "packages/monorepo-release-demo-common",
+              "tarballDir": "dist/packages/monorepo-release-demo-common"
+            }
+          ]
+        ],
+        "tagFormat": "monorepo-release-demo-common-v${VERSION}"
+      }
+    }
+  }
+}
