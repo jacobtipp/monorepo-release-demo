@@ -206,13 +206,6 @@ importers:
         specifier: ^0.25.8
         version: 0.25.8(@vitest/ui@0.25.8)(jsdom@20.0.3)(less@3.12.2)(stylus@0.55.0)
 
-  packages/monorepo-release-demo-a:
-    dependencies:
-      '@jacobtipp/monorepo-release-demo-common':
-        specifier: workspace:*
-        version: link:../../dist/packages/monorepo-release-demo-common
-    publishDirectory: ../../dist/packages/monorepo-release-demo-a
-
   packages/monorepo-release-demo-common:
     publishDirectory: ../../dist/packages/monorepo-release-demo-common
 
