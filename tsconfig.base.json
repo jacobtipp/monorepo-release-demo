@@ -26,6 +26,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@jacobtipp/monorepo-release-demo-a": [
+        "packages/monorepo-release-demo-a/src/index.ts"
+      ],
       "@jacobtipp/monorepo-release-demo-common": [
         "packages/monorepo-release-demo-common/src/index.ts"
       ]
