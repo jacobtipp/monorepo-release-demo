@@ -213,6 +213,13 @@ importers:
         version: link:../../dist/packages/monorepo-release-demo-common
     publishDirectory: ../../dist/packages/monorepo-release-demo-a
 
+  packages/monorepo-release-demo-b:
+    dependencies:
+      '@jacobtipp/monorepo-release-demo-a':
+        specifier: workspace:*
+        version: link:../../dist/packages/monorepo-release-demo-a
+    publishDirectory: ../../dist/packages/monorepo-release-demo-b
+
   packages/monorepo-release-demo-common:
     publishDirectory: ../../dist/packages/monorepo-release-demo-common
 

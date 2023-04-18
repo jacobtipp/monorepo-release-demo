@@ -1,0 +1,25 @@
+{
+  "name": "@jacobtipp/monorepo-release-demo-b",
+  "version": "1.0.0",
+  "main": "./index.js",
+  "private": false,
+  "sideEffects": false,
+  "publishConfig": {
+    "directory": "../../dist/packages/monorepo-release-demo-b",
+    "linkDirectory": true,
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "dependencies": {
+    "@jacobtipp/monorepo-release-demo-a": "workspace:*"
+  },
+  "devDependencies": {},
+  "peerDependencies": {}
+}
