@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/jacobtipp/monorepo-release-demo/compare/monorepo-release-demo-b-v1.0.0...monorepo-release-demo-b-v1.1.0) (2023-04-18)
+
+
+### Features
+
+* **monorepo-release-demo-common:** ✨ add multiply function ([#7](https://github.com/jacobtipp/monorepo-release-demo/issues/7)) ([667a0d9](https://github.com/jacobtipp/monorepo-release-demo/commit/667a0d9e41193934c8340d10567623750da91e51))
+
 # 1.0.0 (2023-04-18)
 
 
