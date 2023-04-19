@@ -64,6 +64,24 @@
         "outputPath": "dist/packages/monorepo-release-demo-b",
         "plugins": [
           [
+            "@semantic-release/release-notes-generator",
+            {
+              "preset": "conventionalcommits",
+              "presetConfig": {
+                "types": [
+                  { "type": "feat", "section": "Features" },
+                  { "type": "fix", "section": "Bug Fixes" },
+                  {
+                    "type": "refactor",
+                    "section": "Code Refactoring",
+                    "hidden": false
+                  }
+                ]
+              }
+            }
+          ],
+
+          [
             "@semantic-release/pnpm",
             {
               "pkgRoot": "dist/packages/monorepo-release-demo-b",
