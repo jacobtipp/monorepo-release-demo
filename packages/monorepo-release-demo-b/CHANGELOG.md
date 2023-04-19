@@ -1,3 +1,5 @@
+## [1.1.1](https://github.com/jacobtipp/monorepo-release-demo/compare/monorepo-release-demo-b-v1.1.0...monorepo-release-demo-b-v1.1.1) (2023-04-19)
+
 # [1.1.0](https://github.com/jacobtipp/monorepo-release-demo/compare/monorepo-release-demo-b-v1.0.0...monorepo-release-demo-b-v1.1.0) (2023-04-18)
 
 
