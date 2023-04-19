@@ -19,7 +19,7 @@ module.exports = {
       { type: 'fix', section: 'Bug Fixes' },
       { type: 'perf', section: 'Performance Improvements' },
       { type: 'revert', section: 'Reverts' },
-      { type: 'refactor', section: 'Code Refactoring' },
+      { type: 'refactor', section: 'Code Refactoring', hidden: false },
       { type: 'style', section: 'Styles' },
       { type: 'build', scope: 'deps', section: 'Build System' },
       { type: 'docs', scope: 'readme', section: 'Documentation' },
