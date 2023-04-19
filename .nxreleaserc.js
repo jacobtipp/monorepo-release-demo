@@ -2,7 +2,6 @@ module.exports = {
   changelog: true,
   npm: false,
   github: true,
-  commitMessage: 'chore(release): ${nextRelease.version} [skip ci]',
   repositoryUrl: 'https://github.com/jacobtipp/monorepo-release-demo.git',
   preset: 'conventionalcommits',
   releaseRules: [
