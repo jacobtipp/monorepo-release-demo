@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/jacobtipp/monorepo-release-demo/compare/monorepo-release-demo-common-v1.1.0...monorepo-release-demo-common-v1.2.0) (2023-04-19)
+
+
+### Features
+
+* **monorepo-release-demo-common:** ✨ add divide function ([#8](https://github.com/jacobtipp/monorepo-release-demo/issues/8)) ([e482b72](https://github.com/jacobtipp/monorepo-release-demo/commit/e482b72b4c15ee84ef2dddfadf18d9af9cfe9659))
+
 # [1.1.0](https://github.com/jacobtipp/monorepo-release-demo/compare/monorepo-release-demo-common-v1.0.0...monorepo-release-demo-common-v1.1.0) (2023-04-18)
 
 
