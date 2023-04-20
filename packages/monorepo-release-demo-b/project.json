@@ -64,25 +64,46 @@
         "outputPath": "dist/packages/monorepo-release-demo-b",
         "changelog": true,
         "github": true,
+        "npm": false,
+        "repositoryUrl": "https://github.com/jacobtipp/monorepo-release-demo.git",
+        "preset": "conventionalcommits",
+        "presetConfig": {
+          "types": [
+            { "type": "feat", "section": "Features" },
+            { "type": "fix", "section": "Bug Fixes" },
+            {
+              "type": "refactor",
+              "section": "Code Refactoring",
+              "hidden": false
+            }
+          ]
+        },
+        "releaseRules": [
+          { "type": "docs", "scope": "readme", "release": "patch" },
+          { "type": "refactor", "release": "patch" },
+          { "type": "style", "release": "patch" },
+          { "type": "build", "scope": "deps", "release": "patch" },
+          { "type": "revert", "release": "patch" },
+          { "type": "perf", "release": "patch" }
+        ],
+        "branches": [
+          "main",
+          {
+            "name": "dev-monorepo-release-demo-b",
+            "prerelease": true
+          },
+          {
+            "name": "beta-monorepo-release-demo-b",
+            "prerelease": true
+          }
+        ],
         "plugins": [
           [
-            "@semantic-release/release-notes-generator",
+            "@semantic-release/npm",
             {
-              "preset": "conventionalcommits",
-              "presetConfig": {
-                "types": [
-                  { "type": "feat", "section": "Features" },
-                  { "type": "fix", "section": "Bug Fixes" },
-                  {
-                    "type": "refactor",
-                    "section": "Code Refactoring",
-                    "hidden": false
-                  }
-                ]
-              }
+              "npmPublish": false
             }
           ],
-
           [
             "@semantic-release/pnpm",
             {
