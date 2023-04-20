@@ -1,3 +1,16 @@
+## [1.1.8](https://github.com/jacobtipp/monorepo-release-demo/compare/monorepo-release-demo-b-v1.1.7...monorepo-release-demo-b-v1.1.8) (2023-04-20)
+
+
+
+
+
+## [1.1.8](https://github.com/jacobtipp/monorepo-release-demo/compare/monorepo-release-demo-b-v1.1.7...monorepo-release-demo-b-v1.1.8) (2023-04-20)
+
+
+### Code Refactoring
+
+* **monorepo-release-demo-b:** ♻️ update addThree ([c49161d](https://github.com/jacobtipp/monorepo-release-demo/commit/c49161d34f9ab5b42add91602626b222a7492119))
+
 ## [1.1.7](https://github.com/jacobtipp/monorepo-release-demo/compare/monorepo-release-demo-b-v1.1.6...monorepo-release-demo-b-v1.1.7) (2023-04-20)
 
 
