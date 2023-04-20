@@ -1,7 +1,5 @@
 module.exports = {
-  changelog: true,
   npm: false,
-  github: true,
   repositoryUrl: 'https://github.com/jacobtipp/monorepo-release-demo.git',
   preset: 'conventionalcommits',
   releaseRules: [

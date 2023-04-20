@@ -62,6 +62,8 @@
       "options": {
         "buildTarget": "monorepo-release-demo-common:build",
         "outputPath": "dist/packages/monorepo-release-demo-common",
+        "changelog": true,
+        "github": true,
         "plugins": [
           [
             "@semantic-release/pnpm",
