@@ -1,3 +1,3 @@
 import { addTwo } from '@jacobtipp/monorepo-release-demo-a';
 
-export const addThree = (num: number) => addTwo(num) + 1;
+export const addThree = (numm: number) => addTwo(numm) + 1;
