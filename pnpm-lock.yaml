@@ -175,6 +175,9 @@ importers:
       rollup-plugin-visualizer:
         specifier: ^5.9.0
         version: 5.9.0(rollup@2.79.1)
+      semantic-release-demo:
+        specifier: ^4.1.0
+        version: 4.1.0
       ts-jest:
         specifier: 28.0.5
         version: 28.0.5(@babel/core@7.20.12)(babel-jest@28.1.1)(jest@28.1.1)(typescript@4.8.4)
@@ -15760,6 +15763,13 @@ packages:
     engines: { node: '>=10' }
     dependencies:
       node-forge: 1.3.1
+    dev: true
+
+  /semantic-release-demo@4.1.0:
+    resolution:
+      {
+        integrity: sha512-buG2tYZg1pXjKOqPc5EW69i4gISCerjdDq9+TGFyZFEmur47XMgOKlNVtQj0o06HCx6ySL1zcbfH5TFihPCt0Q==,
+      }
     dev: true
 
   /semantic-release-plugin-decorators@3.0.1(semantic-release@19.0.3):
