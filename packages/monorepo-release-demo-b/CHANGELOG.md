@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/jacobtipp/monorepo-release-demo/compare/monorepo-release-demo-b-v1.2.1...monorepo-release-demo-b-v1.2.2) (2023-05-03)
+
+
+### Bug Fixes
+
+* **monorepo-release-demo-b:** 🐛 update b ([e679dbd](https://github.com/jacobtipp/monorepo-release-demo/commit/e679dbd39dfe9166363f68db6504afb8da64e3b0))
+
 ## [1.2.1](https://github.com/jacobtipp/monorepo-release-demo/compare/monorepo-release-demo-b-v1.2.0...monorepo-release-demo-b-v1.2.1) (2023-05-03)
 
 
