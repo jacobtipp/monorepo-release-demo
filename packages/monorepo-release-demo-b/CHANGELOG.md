@@ -1,3 +1,10 @@
+## [1.4.0](https://github.com/jacobtipp/monorepo-release-demo/compare/monorepo-release-demo-b-v1.3.0...monorepo-release-demo-b-v1.4.0) (2023-05-03)
+
+
+### Features
+
+* **monorepo-release-demo-b:** ✨ update b ([80b361a](https://github.com/jacobtipp/monorepo-release-demo/commit/80b361a8cb588fb336ff31b7cd0020290e9f6bcf))
+
 ## [1.3.0](https://github.com/jacobtipp/monorepo-release-demo/compare/monorepo-release-demo-b-v1.2.3...monorepo-release-demo-b-v1.3.0) (2023-05-03)
 
 
