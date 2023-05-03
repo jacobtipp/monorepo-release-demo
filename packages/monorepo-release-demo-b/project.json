@@ -147,6 +147,7 @@
           [
             "semantic-release-discord-bot",
             {
+              "packageName": "monorepo-release-demo-b",
               "notifications": []
             }
           ]
