@@ -148,19 +148,7 @@
             "semantic-release-discord",
             {
               "notifyOnSuccess": true,
-              "notifyOnFail": true,
-              "onSuccessTemplate": {
-                "content": "A new version of $package_name as been released !",
-                "username": "$package_name",
-                "embeds": [
-                  {
-                    "title": "$package_name $npm_package_version",
-                    "url": "$repo_url",
-                    "description": "$release_notes",
-                    "color": 16776960
-                  }
-                ]
-              }
+              "notifyOnFail": true
             }
           ]
         ],
