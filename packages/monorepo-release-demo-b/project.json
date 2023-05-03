@@ -145,10 +145,9 @@
             }
           ],
           [
-            "semantic-release-discord",
+            "semantic-release-discord-bot",
             {
-              "notifyOnSuccess": true,
-              "notifyOnFail": true
+              "notifications": []
             }
           ]
         ],
