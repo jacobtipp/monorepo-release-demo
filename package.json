@@ -78,7 +78,6 @@
     "rimraf": "^4.4.1",
     "rollup-plugin-visualizer": "^5.9.0",
     "semantic-release-discord": "^1.2.0",
-    "semantic-release-discord-bot": "^1.1.0",
     "ts-jest": "28.0.5",
     "ts-node": "10.9.1",
     "typedoc": "^0.23.28",

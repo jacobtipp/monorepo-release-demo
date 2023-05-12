@@ -114,12 +114,9 @@
         ],
         "branches": [
           "main",
+          "beta",
           {
-            "name": "dev-monorepo-release-demo-b",
-            "prerelease": true
-          },
-          {
-            "name": "beta-monorepo-release-demo-b",
+            "name": "dev",
             "prerelease": true
           }
         ],
@@ -142,17 +139,6 @@
             {
               "pkgRoot": "packages/monorepo-release-demo-b",
               "tarballDir": "dist/packages/monorepo-release-demo-b"
-            }
-          ],
-          [
-            "semantic-release-discord-bot",
-            {
-              "packageName": "monorepo-release-demo-b",
-              "notifications": [
-                {
-                  "branch": "main/*"
-                }
-              ]
             }
           ]
         ],
