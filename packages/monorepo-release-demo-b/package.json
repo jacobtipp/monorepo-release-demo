@@ -1,6 +1,6 @@
 {
   "name": "@jacobtipp/monorepo-release-demo-b",
-  "version": "1.4.0",
+  "version": "1.5.0-dev-monorepo-release-demo-b.1",
   "main": "./index.js",
   "private": false,
   "sideEffects": false,
