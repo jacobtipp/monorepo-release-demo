@@ -143,17 +143,6 @@
               "pkgRoot": "packages/monorepo-release-demo-b",
               "tarballDir": "dist/packages/monorepo-release-demo-b"
             }
-          ],
-          [
-            "semantic-release-discord-bot",
-            {
-              "packageName": "monorepo-release-demo-b",
-              "notifications": [
-                {
-                  "branch": "main/*"
-                }
-              ]
-            }
           ]
         ],
         "tagFormat": "monorepo-release-demo-b-v${VERSION}"
