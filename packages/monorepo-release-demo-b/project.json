@@ -66,6 +66,7 @@
         "github": true,
         "npm": false,
         "repositoryUrl": "https://github.com/jacobtipp/monorepo-release-demo.git",
+        "commitMessage": "chore(release): 🔧${nextRelease.version}\n\n${nextRelease.notes}",
         "preset": "conventionalcommits",
         "presetConfig": {
           "types": [
