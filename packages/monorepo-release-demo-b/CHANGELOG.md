@@ -1,3 +1,16 @@
+## [1.6.0](https://github.com/jacobtipp/monorepo-release-demo/compare/monorepo-release-demo-b-v1.5.0...monorepo-release-demo-b-v1.6.0) (2023-05-13)
+
+
+### Features
+
+* **monorepo-release-demo-b:** ✨ add another log ([4b3e1d8](https://github.com/jacobtipp/monorepo-release-demo/commit/4b3e1d8ad802e6e8442e3e4d6ca0ee60c59c800a))
+* **monorepo-release-demo-b:** ✨ add some logging ([9c10387](https://github.com/jacobtipp/monorepo-release-demo/commit/9c10387f298a1c8e5c7e9f4e32cbc3ce30591075))
+
+
+### Bug Fixes
+
+* **monorepo-release-demo-b:** 🐛 update addThree ([0aeb3f5](https://github.com/jacobtipp/monorepo-release-demo/commit/0aeb3f5dcbc90dca3a0434713f29351f53a6ce56))
+
 ## [1.6.0-dev.1](https://github.com/jacobtipp/monorepo-release-demo/compare/monorepo-release-demo-b-v1.5.0...monorepo-release-demo-b-v1.6.0-dev.1) (2023-05-13)
 
 
