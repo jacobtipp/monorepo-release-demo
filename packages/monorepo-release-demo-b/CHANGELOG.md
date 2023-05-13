@@ -1,3 +1,10 @@
+## [1.7.0-dev.3](https://github.com/jacobtipp/monorepo-release-demo/compare/monorepo-release-demo-b-v1.7.0-dev.2...monorepo-release-demo-b-v1.7.0-dev.3) (2023-05-13)
+
+
+### Bug Fixes
+
+* **monorepo-release-demo-b:** 🐛 update addThree arguments ([c62599f](https://github.com/jacobtipp/monorepo-release-demo/commit/c62599f6558170cd8019ccd63a66fd5a1bb94d6f))
+
 ## [1.7.0-dev.2](https://github.com/jacobtipp/monorepo-release-demo/compare/monorepo-release-demo-b-v1.7.0-dev.1...monorepo-release-demo-b-v1.7.0-dev.2) (2023-05-13)
 
 
