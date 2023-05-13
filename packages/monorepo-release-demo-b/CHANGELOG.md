@@ -1,3 +1,10 @@
+## [1.7.0-dev.2](https://github.com/jacobtipp/monorepo-release-demo/compare/monorepo-release-demo-b-v1.7.0-dev.1...monorepo-release-demo-b-v1.7.0-dev.2) (2023-05-13)
+
+
+### Features
+
+* **monorepo-release-demo-b:** ✨ remove second log ([01f932c](https://github.com/jacobtipp/monorepo-release-demo/commit/01f932c1016e1eaa22ab76b0e40c4e1e23a0e8d5))
+
 ## [1.7.0-dev.1](https://github.com/jacobtipp/monorepo-release-demo/compare/monorepo-release-demo-b-v1.6.0...monorepo-release-demo-b-v1.7.0-dev.1) (2023-05-13)
 
 
